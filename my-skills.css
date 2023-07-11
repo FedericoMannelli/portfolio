@@ -1,0 +1,114 @@
+
+@media (min-width: 1249px)  {
+  /* … */
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url(./assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "Marykate";
+    src: url(./assets/fonts/FontsFree-Net-Marykate-Regular.ttf)
+  }
+
+  .main{
+    
+    background-image: url(./assets/images/My-Skills-Page.png);
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+
+    contain: content;
+    background-size: cover;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    grid-auto-rows: minmax(340px, auto);
+    column-gap: 100px;
+}
+
+    h1{
+        font-family: "Marykate";
+        font-weight: 500;
+        color: #E471A3;
+        font-size: 80px;
+        margin-bottom: 0;
+        margin-top: 175px; 
+        text-align: center;
+        align-items: center;
+    
+    }
+    .box1{
+        height: 24vh;
+    
+    }
+
+    ul, ol{
+        font-family: 'Poppins', sans-serif;
+        list-style-type: none;
+        margin-top: 0;
+        line-height: 22px;
+
+        font-size: 17px;
+    }
+    .section1{
+        
+        
+        margin-bottom: 80px;
+
+        
+    }
+
+    .section2{
+        width: 300px;
+        margin-left: 100px;
+        margin-top: 0;
+    }
+
+    * {
+        box-sizing: border-box;
+      }
+      
+      .one {
+        grid-column: 2 / 4;
+        grid-row: 1;
+        
+      }
+      .two {
+        grid-column: 2 / 4;
+        grid-row: 2 / 3;
+      }
+      .three {
+        grid-column: 3;
+        grid-row: 2 / 2;
+      }
+      strong{
+        color: #C66791;
+      }
+
+}
+
+@media (max-width: 1248px){
+  
+  html{
+    background-image: url(./assets/images/Work-in-progress.png);
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+
+    contain: content;
+    background-size: cover;
+  
+  }
+  .main{
+    display: none;
+  }
+}
+      

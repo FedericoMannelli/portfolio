@@ -1,0 +1,92 @@
+@media (min-width: 1024px)  {
+  /* … */
+
+
+
+ html, body{
+  background-image: url(./assets/images/PresentedByFedericoMannelli.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-position-y: center;
+  font-family: "Marykate";
+
+}
+ div{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 32vh;
+  }
+
+@font-face {
+    font-family: "Marykate";
+    src: url(./assets/fonts/FontsFree-Net-Marykate-Regular.ttf)
+  }
+
+ h1, h2{
+    font-family: "Marykate";
+    color: hsl(239, 23%, 46%);
+    transition: color 0.5s;
+    } 
+    
+    
+  h1{
+  font-size: 7vw;
+  margin-bottom: 1vw;
+   
+}
+
+
+ h2{
+  font-size: 1.5em;
+  margin-bottom: 1vw;
+
+}
+/* .h2box{
+    background-image: url(./assets/images/background_h1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 50vw;
+  max-width: 75vw;
+  background-position: center;
+  background-position-y: center;
+} */
+
+span{
+    color: #C66791;
+    transition: color 0.5s;
+}
+
+span:hover {
+  color: hsl(239, 23%, 46%, .4);
+}
+
+}
+
+
+@media (min-width: px){
+  h1{
+    font-size: 20vw;
+  }
+  h2box{
+    
+  }
+  
+}
+@media (min-width:500px ) {
+  h1{
+    font-size: 10vw
+  }
+}
+@media (min-width:1000px){
+  h1{
+    font-size: 7vw
+  }
+}
+
+
+
+
